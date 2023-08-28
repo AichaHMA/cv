@@ -17,14 +17,14 @@
                 <ul id="sidemenu">
                     <li><a href="#header">Home</a></li>
                     <li><a href="#about">About</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
+                    <!--<li><a href="#portfolio">Portfolio</a></li> -->
                     <li><a href="#contact">Contact</a></li>
                     <i class="fas fa-times" onclick="closemenu()"></i>
                 </ul>
                 <i class="fas fa-bars" onclick="openmenu()"></i>
             </nav>
             <div class="header-text">
-                <p>reconversion qualité logiciel</p>
+                <p>reconversion product builder / nocode maker</p>
                 <h1>Bonjour,<br> je suis <span>Aicha</span></h1>
             </div>
         </div>
@@ -33,35 +33,41 @@
         <div class="container">
             <div class="row">
                 <div class="about-col-1">
-                    <img src="images/tianyi-ma-WiONHd_zYI4-unsplash.jpg" width=624px height=811px>
+                    <img src="images/tianyi-ma-WiONHd_zYI4-unsplash.jpg">
                 </div>
                 <div class="about-col-2">
                     <h1 class="sub-title">A propos de moi</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores hic unde excepturi natus placeat deleniti repellat, voluptatum quis fugit dicta, corrupti sed. Officia laborum animi, nemo at dolorum et voluptatem?</p>
+                    <p>Souhaitant me reconvertir dans le développement web, j'ai commencé mon parcours en autodidacte en explorant le HTML, le CSS et JavaScript. J’ai par la suite découvert les possibilités du no-code avec la plateforme Webflow. En tant que débutante enthousiaste, je cherche maintenant à consolider mes compétences dans le domaine du no-code. En rejoignant une école spécialisée, je souhaite acquérir une expertise pratique, acquérir une compréhension approfondie des outils et des méthodes no-code et contribuer à des projets innovants en utilisant cette approche moderne de développement.</p>
                     <div class="tab-titles">
                         <p class="tab-links active-link" onclick="opentab('compétences')">Compétences</p>
                         <p class="tab-links" onclick="opentab('experiences')">Expériences</p>
-                        <p class="tab-links" onclick="opentab('education')">Diplômes et formations</p>
+                        <p class="tab-links" onclick="opentab('education')">Formations</p>
                     </div>
                     <div class="tab-contents active-tab" id="compétences">
                         <ul>
-                            <li><span>Compétence 1</span><br>Description compétence 1</li>
-                            <li><span>Compétence 2</span><br>Description compétence 2</li>
-                            <li><span>Compétence 3</span><br>Description compétence 3</li>
+                            <li><span>Hard skills :</span><br>Code : HTML, CSS, Javascript<br>Nocode : Webflow, Notion<br>ERP : Sage Paie 100<br>Open Office</li>
+                            <li><span>Soft skills :</span><br>Esprit d'équipe<br>Bon relationnel<br>Capacité à résouder des problèmes<br>Résilience<br>Adaptabilité</li>
                         </ul>
                     </div>
                     <div class="tab-contents"  id="experiences">
                         <ul>
-                            <li><span>Experience 1</span><br>Description Experience 1</li>
-                            <li><span>Experience 2</span><br>Description compétence 2</li>
-                            <li><span>Experience 3</span><br>Description Experience 3</li>
+                            <li><span>Gestionnaire de paie</span><br>Jour Courbevoie (janvier 2019 à juin 2019)
+                                <br>Bras droit du Responsable paie :<br>- Collecte et saisit des éléments variables de paie,<br>ontrôler et éditer les bulletins de paie ;<br>- Suivi administratif du personnel :<br>Intégrations et sorties, arrêts maladie, absences diverses, transports, primes, dossiers mutuelle, acomptes, saisies sur salaire ;<br>- Edition des documents de sortie : ASSEDIC, STC, certificat de travail <br>- Effectuer les déclarations DSN mensuelle et maladie.<br>- Effectuer les ordres de paiements et de virements des salaires, STC et acomptes<br>- Création et édition de GA (générateur d'états personnalisés) <br>- Contrôle des éléments variable de paie et données administratives.</li>
+                            <li><span>Chargé administrative</span><br>AHM Grenoble (janvier 2013 - juillet 2017)
+                                <br>- Création d’une base de données bénéficiaire (Excel)
+                                <br>- Création d’une fiche d’inscription pré-alimentée.
+                                <br>- Prise de rendez-vous, accueil physique et téléphonique des bénéficiaires
+                                <br>- Mise à jour des dossiers
+                                <br>- Classement et archivage des dossiers
+                                Gestion du fond de caisse
+                                <br>- Transmission des indicateurs d’états trimestriels</li>
                         </ul>
                     </div>
                     <div class="tab-contents"  id="education">
                         <ul>
-                            <li><span>Ecole 1</span><br>Description Ecole 1</li>
-                            <li><span>Ecole 2</span><br>Description Ecole 2</li>
-                            <li><span>Ecole 3</span><br>Description Ecole 3</li>
+                            <li><span>BTS comptabilité et Gestion des Organisations</span><br>Lycée Edouard-Herriot</li>
+                            <li><span>1ere année licence Langues Etrangères Appliquées anglais-arabe </span><br>Université Stendhal Grenoble</li>
+                            <li><span>BAC Comptabilité et Finance des Entreprises</span><br>Lycée Edouard-Herriot</li>
                         </ul>
                     </div>
                 </div>
@@ -69,7 +75,7 @@
         </div>
     </div>
 
-    <!-- -------------portfolio------------------ -->
+    <!-- ------------- debut masque portfolio------------------ 
 
     <div id="portfolio">
         <div class="container">
@@ -87,7 +93,7 @@
                     <img src="images/work-2.png">
                     <div class="layer">
                         <h3>Social Media App</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed quo perferendis atque ut cupiditate unde libero</p>
+                        <p>Dans le souhait de vouloir me convertir dans le développement web/app, j'ai commencé mon parcours en autodidacte en explorant le HTML, le CSS et JavaScript. J’ai par la suite découvert les possibilités du no-code avec la plateforme Webflow. En tant que débutante enthousiaste, je cherche maintenant à consolider mes compétences dans le domaine du no-code. En rejoignant une école spécialisée, je souhaite acquérir une expertise pratique, acquérir une compréhension approfondie des outils et des méthodes no-code et contribuer à des projets innovants en utilisant cette approche moderne de développement.</p>
                         <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                     </div>
@@ -103,6 +109,8 @@
             <a href="#" class="btn">En savoir plus</a>
         </div>
     </div>
+fin masque portfolio  -- --> 
+
     <!-- ---------------------contact------------------- --> 
     <div id="contact">
        <div class="container">
@@ -114,7 +122,7 @@
                     <div class="social-icons">
                         <a href="#"><i class="fa-brands fa-linkedin"></i> Linkedin</a>
                     </div>
-                    <a href="images/CV_Aicha_HMAMOU.pdf" download class="btn btn2">Télécharger CV</a>
+                    <a href="images/CV_Aicha_HMAMOU_Reconversion.pdf" download class="btn btn2">Télécharger CV</a>
                 </div>
                 <div class="contact-right">
                     <form name="submit-to-google-sheet">
